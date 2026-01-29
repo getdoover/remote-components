@@ -48,8 +48,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload dist from basic-component
-          path: 'basic-component/dist'
+          path: 'assets'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
